@@ -1,0 +1,21 @@
+Number guessing game project explanation
+The number guessing game is based on a concept where player guess a number
+between a range. If player guess the exact number then player win else player loose the
+game. Since this game provides limited attempts, so, player must guess the number
+with the limited attempts, else will lose the game.
+Number guessing game Rules
+1. You must enter only valid integer within the specified range.
+2. You will be provided limited attempts to guess the number.
+3. You cannot leave the game, once started.
+Algorithm for Number guessing game
+Step 1: Create three variables attempt, userGuessNumber, secretNumber and
+initialize them.
+Step 2: Generate a random number and assigned to secretNumber.
+Step 3: Start a loop and take user input.
+Step 4: Validate user input and match with the secretNumber.
+Step 5: If userGuessNumber is greater than or less than
+the secretNumber then print a message to user.
+Step 6: If userGuessNumber is equal to the secretNumber, then user wins
+and exit the game.
+Step 7: If number of attempts exceeds the limit, exit the game.
+Step 8:Repeat from Step 3.
